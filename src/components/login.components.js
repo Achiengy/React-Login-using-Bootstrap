@@ -1,9 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react'
 export default class Login extends Component {
   render() {
     return (
       <form>
-        <h3>Sign In</h3>
+        <h3>Login</h3>
         <div className="mb-3">
           <label>Email address</label>
           <input
